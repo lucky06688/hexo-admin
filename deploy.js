@@ -1,5 +1,5 @@
 
-var spawn = require('child_process').spawn
+var spawn = require('cross-spawn')
 
 function once(fn) {
   var called = false
